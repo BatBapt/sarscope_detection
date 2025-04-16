@@ -15,7 +15,14 @@ You can download the file and use it like that, you will just need to change the
 ```base_path=YOUR_PATH```
 
 ## The training process
-I used my personal GPU, a Nvidia GeForce RTX 4060 8Go RAM to train the model for 100 epoch.\
+I used my personal GPU, a Nvidia GeForce RTX 4060 8Go RAM to train the model for 100 epoch.
 
 ![mAP during the training](assets/map_score.png "mAP during the training")\
 ![loss during the training](assets/loss_training.png "loss during the training")\
+
+The current best weights is at epoch 64 (starting from 0) with current metrics on the test data
+| Metric  | Value     |
+| :--------------- |:---------------|
+| mAP  | 0.54       |
+| mAP_50  | 0.84            |
+| mAP_75  | 0.61         |
