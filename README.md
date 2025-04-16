@@ -24,5 +24,5 @@ The current best weights is at epoch 64 (starting from 0) with current metrics o
 | Metric  | Value     |
 | :--------------- |:---------------|
 | mAP  | 0.54       |
-| mAP_50  | 0.84            |
-| mAP_75  | 0.61         |
+| mAP_{50}  | 0.84            |
+| mAP_{75}  | 0.61         |
