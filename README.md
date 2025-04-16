@@ -13,3 +13,9 @@ I used an open source dataset in Kaggle: https://www.kaggle.com/datasets/kailasp
 
 You can download the file and use it like that, you will just need to change the path to data in the jupyter file
 ```base_path=YOUR_PATH```
+
+## The training process
+I used my personal GPU, a Nvidia GeForce RTX 4060 8Go RAM to train the model for 100 epoch.\
+
+![mAP during the training](assets/map_score.png "mAP during the training")\
+![loss during the training](assets/loss_training.png "loss during the training")\
