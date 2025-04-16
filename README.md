@@ -12,7 +12,7 @@ I used an open source dataset in Kaggle: https://www.kaggle.com/datasets/kailasp
 ## Run the file:
 
 You can download the file and use it like that, you will just need to change the path to data in the jupyter file
-```base_path=YOUR_PATH```
+```base_path=YOUR_PATH``` but make you sure to have all the requires dependencies 
 
 ## The training process
 I used my personal GPU, a Nvidia GeForce RTX 4060 8Go RAM to train the model for 100 epoch.
@@ -38,3 +38,11 @@ The current best weights is at epoch 64 (starting from 0) with current metrics o
  | **map_per_class**     | -1.0                 |
  | **mar_100_per_class** | -1.0                 |
  | **classes**           | 1                    |
+
+### Limits and Futur
+The model is not well performing on the test data if many ships are in the same image. Currently, it will detect only few of them
+What can we try ?
+* More data
+* More data augmentation
+* Try different backbone within the model
+* Hyperparameter tuning
