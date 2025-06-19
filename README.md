@@ -26,7 +26,7 @@ To get started with this project, follow these steps:
 
 3. Ensure all dependencies are installed.
 
-## Training Process
+## Training Process 📈
 The model was trained using the following setup:
 - **GPU**: Nvidia GeForce RTX 4060 with 8GB RAM
 - **Epochs**: 100
@@ -38,7 +38,7 @@ Here are some visualizations from the training process:
 
 The best model weights were achieved at epoch 64 (starting from 0).
 
-## Performance Metrics
+## Performance Metrics 
 
 Below are the performance metrics on the test data:
 
@@ -60,12 +60,14 @@ Below are the performance metrics on the test data:
 | **mar_100_per_class** | -1.0 |
 | **classes** | 1 |
 
-## Limitations and Future Work
+## Limitations and Future Work 🏁
 The current model has limitations, particularly with images containing multiple ships. Future improvements could include:
 - 🔹 Adding more data
 - 🔹 Enhancing data augmentation techniques
 - 🔹 Experimenting with different model backbones
 - 🔹 Fine-tuning hyperparameters
 
-## Acknowledgments
+## Acknowledgments 📚
+- Mask R-CNN: [arXiv:1703.06870](https://arxiv.org/abs/1703.06870)
+- 
 This project was enhanced with the help of my Mistral AI Agent.
