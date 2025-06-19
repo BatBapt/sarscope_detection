@@ -1,6 +1,5 @@
 # sarscope_detection
 
-
 ## About
 
 This repository is about detect ship in SAR image (https://en.wikipedia.org/wiki/Synthetic-aperture_radar)
@@ -12,10 +11,10 @@ I used an open source dataset in Kaggle: https://www.kaggle.com/datasets/kailasp
 ## Run the file:
 
 You can download the file and use it like that, you will just need to change the path to data in the jupyter file
-```base_path=YOUR_PATH``` but make you sure to have all the requires dependencies 
+```base_path=YOUR_PATH``` but make you sure to have all the dependencies 
 
 ## The training process
-I used my personal GPU, a Nvidia GeForce RTX 4060 8Go RAM to train the model for 100 epoch.
+I used my personal GPU, an Nvidia GeForce RTX 4060 8Go RAM to train the model for 100 epoch.
 
 ![mAP during the training](assets/map_score.png "mAP during the training")\
 ![loss during the training](assets/loss_training.png "loss during the training")\
