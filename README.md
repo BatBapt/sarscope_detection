@@ -62,10 +62,10 @@ Below are the performance metrics on the test data:
 
 ## Limitations and Future Work
 The current model has limitations, particularly with images containing multiple ships. Future improvements could include:
-🔹 Adding more data
-🔹 Enhancing data augmentation techniques
-🔹 Experimenting with different model backbones
-🔹 Fine-tuning hyperparameters
+- 🔹 Adding more data
+- 🔹 Enhancing data augmentation techniques
+- 🔹 Experimenting with different model backbones
+- 🔹 Fine-tuning hyperparameters
 
 ## Acknowledgments
 This project was enhanced with the help of my Mistral AI Agent.
