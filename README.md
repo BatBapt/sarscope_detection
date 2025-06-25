@@ -21,7 +21,7 @@ To get started with this project, follow these steps:
 1. Download the repository to your local machine.
 2. Update the path to the dataset in the Jupyter notebook file:
 ```
-   base_path = 'YOUR_PATH'  # The data to your data
+   base_path = 'YOUR_PATH'  # The path to your data
 ```
 
 3. Ensure all dependencies are installed.
@@ -42,23 +42,23 @@ The best model weights were achieved at epoch 64 (starting from 0).
 
 Below are the performance metrics on the test data:
 
-| Metric | Value |
-|--------|-------|
-| **map** | 0.5436151623725891 |
-| **map_50** | 0.843625545501709 |
-| **map_75** | 0.6185094714164734 |
-| **map_small** | 0.49138033390045166 |
-| **map_medium** | 0.6922172904014587 |
-| **map_large** | 0.6687196493148804 |
-| **mar_1** | 0.25759682059288025 |
-| **mar_10** | 0.562661349773407 |
-| **mar_100** | 0.6185203790664673 |
-| **mar_small** | 0.5695593953132629 |
-| **mar_medium** | 0.7633684277534485 |
-| **mar_large** | 0.734883725643158 |
-| **map_per_class** | -1.0 |
-| **mar_100_per_class** | -1.0 |
-| **classes** | 1 |
+| Metric                | Value               |
+|-----------------------|---------------------|
+| **map**               | 0.5436151623725891  |
+| **map_50**            | 0.843625545501709   |
+| **map_75**            | 0.6185094714164734  |
+| **map_small**         | 0.49138033390045166 |
+| **map_medium**        | 0.6922172904014587  |
+| **map_large**         | 0.6687196493148804  |
+| **mar_1**             | 0.25759682059288025 |
+| **mar_10**            | 0.562661349773407   |
+| **mar_100**           | 0.6185203790664673  |
+| **mar_small**         | 0.5695593953132629  |
+| **mar_medium**        | 0.7633684277534485  |
+| **mar_large**         | 0.734883725643158   |
+| **map_per_class**     | -1.0                |
+| **mar_100_per_class** | -1.0                |
+| **classes**           | 1                   |
 
 ## Limitations and Future Work 🏁
 The current model has limitations, particularly with images containing multiple ships. Future improvements could include:
