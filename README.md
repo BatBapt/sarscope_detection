@@ -8,10 +8,10 @@ Welcome to the SARScope Ship Detection project! 🌊 This repository is dedicate
 - [Dataset](#dataset)
 - [Setup](#setup)
 - [Files](#files)
-- [Training Process](#training-process)
-- [Performance Metrics](#performance-metrics)
+- [Training Process](#training-process-)
+- [Performance Metrics](#performance-metrics-)
 - [Limitations and Future Work](#limitations-and-future-work)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#acknowledgments-)
 
 ## About
 
@@ -57,7 +57,7 @@ Here are some visualizations from the training process:
 
 The best model weights were achieved at epoch 64 (starting from 0).
 
-## Performance Metrics
+## Performance Metrics 🏁
 
 Below are the performance metrics on the test data:
 
@@ -87,7 +87,7 @@ They are organized by the threshold used for the prediction.
 
 As we can see, the model performs well with a threshold of 0.5, but loses accuracy with a threshold of 0.9 (multiple ships in the image).
 
-## Limitations and Future Work 🏁
+## Limitations and Future Work
 
 The current model has limitations, particularly with images containing multiple ships. Future improvements could include:
 
