@@ -21,7 +21,7 @@ To get started with this project, follow these steps:
 1. Download the repository to your local machine.
 2. Update the path to the dataset in the Jupyter notebook file:
 ```
-   base_path = 'YOUR_PATH'  # The path to your data
+   base_path = 'YOUR_PATH'  # path to your data
 ```
 
 3. Ensure all dependencies are installed.
