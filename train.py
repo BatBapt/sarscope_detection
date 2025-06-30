@@ -133,7 +133,6 @@ if __name__ == "__main__":
 
     print(f"Train: {len(train_dataset)} | Val: {len(val_dataset)}")
 
-
     batch_size = 8
     train_data_loader = DataLoader(
         train_dataset,
@@ -143,8 +142,6 @@ if __name__ == "__main__":
         num_workers=2,
         pin_memory=True
     )
-
-
 
     val_data_loader = DataLoader(
         val_dataset,
@@ -158,7 +155,7 @@ if __name__ == "__main__":
     num_classes = 1 + 1  # background + class, ie ship
     model = my_model.get_model(num_classes)
 
-    num_epochs = 10
+    num_epochs = 100
     params = [p for p in model.parameters() if p.requires_grad]
     optimizer = torch.optim.SGD(params, lr=0.0005, momentum=0.9, weight_decay=0.0005)
     scaler = torch.cuda.amp.GradScaler()

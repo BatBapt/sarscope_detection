@@ -157,9 +157,10 @@ def plot_sample_images(real_images, true_bboxes, outputs, nb_sample=3, nb_per_ba
             pred_labels = sample_pred_bboxes[i]['labels'].cpu().numpy() if 'labels' in sample_pred_bboxes[i] else None
             pred_scores = sample_pred_bboxes[i]['scores'].cpu().numpy() if 'scores' in sample_pred_bboxes[i] else None
             plot_image_with_bboxes(curr_image, real_bboxes, pred_bboxes, pred_labels, pred_scores, score_threshold)
+
+            plt.savefig(f"plots/sample_{indice}_image_{i}_threshold_{score_threshold}.png")
             if i == nb_per_batch:
                 break
-            plt.savefig(f"plots/sample_{indice}_image_{i}_threshold_{score_threshold}.png")
 
 
 if __name__ == "__main__":
@@ -197,4 +198,4 @@ if __name__ == "__main__":
     nb_sample = 3
     indices = np.random.randint(0, len(real_images), nb_sample)
     nb_per_batch = 3
-    plot_sample_images(real_images, true_bboxes, outputs, nb_sample=nb_sample, nb_per_batch=nb_per_batch, score_threshold=0.9)
+    plot_sample_images(real_images, true_bboxes, outputs, nb_sample=nb_sample, nb_per_batch=nb_per_batch, score_threshold=0.75)
