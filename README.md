@@ -71,6 +71,7 @@ Here are some visualizations from the training process:
 ![mAP during the training](assets/map_score.png)
 ![Loss during the training](assets/loss_training.png)
 
+
 ## Performance Metrics 🏁
 
 Below are the performance metrics on the test data:
